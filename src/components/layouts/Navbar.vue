@@ -13,7 +13,7 @@
                         <router-link class="dropdown-item" :to="{ name: 'know_your_deputy' }">Conoce a tu diputado</router-link>
                         <router-link class="dropdown-item" :to="{ name: 'parliamentary_fractions' }">Fracciones Parlamentarias</router-link>
                         <router-link class="dropdown-item" :to="{ name: 'graphic_composition' }">Composición Gráfica</router-link>
-                        <router-link class="dropdown-item" :to="{ name: 'board_of_directors'}">Mesa Directiva</router-link>
+                        <router-link class="dropdown-item" :to="{ name: 'board_of_directors' }">Mesa Directiva</router-link>
                     </div>
                 </li>
                 <li class="nav-item dropdown">

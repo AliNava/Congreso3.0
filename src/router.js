@@ -32,7 +32,7 @@ export default new Router({
             component: GraphicComposition,
         },
         {
-            path:'/composiciongrafica',
+            path:'/mesadirectiva',
             name:'board_of_directors',
             component: BoardOfDirectors,
         }
