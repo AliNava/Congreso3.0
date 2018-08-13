@@ -1,14 +1,16 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-light " >
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <img src="../../assets/img/logocongreso.png" class="float-left" style="max-height:75px "/>
+            <router-link :to="{ name:'home' }">
+                <img src="../../assets/img/logocongreso.png" class="float-left" style="max-height:75px "/>
+            </router-link>
             <ul class="navbar-nav mx-auto" >
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         LXIII Legislatura
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Conoce a tu diputado</a>
+                        <router-link class="dropdown-item" :to="{ name: 'know_your_deputy' }">Conoce a tu diputado</router-link>
                         <a class="dropdown-item" href="#">Fracciones Parlamentarias</a>
                         <a class="dropdown-item" href="#">Composición Gráfica</a>
                         <a class="dropdown-item" href="#">Mesa Directiva </a>

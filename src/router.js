@@ -14,7 +14,7 @@ export default new Router({
             component: Home,
         },
         {
-            path:'conocetudiputado',// sin espacios y minusculas
+            path:'/conocetudiputado',// sin espacios y minusculas
             name:'know_your_deputy', //minusculas y sin espacios
             component: KnowYourDeputy,
         }

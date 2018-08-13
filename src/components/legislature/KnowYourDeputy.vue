@@ -1,6 +1,6 @@
 <template>
     <div>
-        deputy
+        Conoce tu diputado
     </div>
 </template>
 

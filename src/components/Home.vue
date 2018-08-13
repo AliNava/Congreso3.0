@@ -1,6 +1,6 @@
 <template>
     <div>
-        jdgmsgro
+        Inicio
     </div>
 </template>
 
