@@ -11,9 +11,9 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <router-link class="dropdown-item" :to="{ name: 'know_your_deputy' }">Conoce a tu diputado</router-link>
-                        <a class="dropdown-item" href="#">Fracciones Parlamentarias</a>
-                        <a class="dropdown-item" href="#">Composición Gráfica</a>
-                        <a class="dropdown-item" href="#">Mesa Directiva </a>
+                        <router-link class="dropdown-item" :to="{ name: 'parliamentary_fractions' }">Fracciones Parlamentarias</router-link>
+                        <router-link class="dropdown-item" :to="{ name: 'graphic_composition' }">Composición Gráfica</router-link>
+                        <router-link class="dropdown-item" :to="{ name: 'board_of_directors'}">Mesa Directiva</router-link>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
