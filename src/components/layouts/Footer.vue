@@ -1,22 +1,22 @@
 <template>
     <!-- Footer -->
-    <footer class="page-footer font-small cyan darken-3">
+    <footer class="page-footer font-small cyan darken-3 bg-dark ">
 
         <!-- Footer Elements -->
         <div class="container">
 
             <!-- Grid row-->
-            <div class="row p-3 justify-content-center">
+            <div class="row p-4 justify-content-center ">
                         <div class="col col-1 ">
                 <!-- Grid column -->
                         <!-- Facebook -->
-                        <a class="fb-ic ">
+                        <a class="fb-ic " href="https://www.facebook.com/hcongresoags/">
                             <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                         </a>
                         </div>
                         <!-- Google +-->
                         <div class="col col-1">
-                        <a class="gplus-ic ">
+                        <a class="gplus-ic" href="http://gmail.com/">
                             <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                         </a>
                         </div>
@@ -27,7 +27,23 @@
                 <!-- Grid column -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center pt-2">© 2018 Copyright:
+        <div class="footer-copyright text-center pt-2 text-white" >
+            <ul>
+                H. Congreso del Estado de Aguascalientes. LXIII Legislatura 2016-2018
+
+                Plaza de la Patria 109 Oriente, Zona Centro, C.P. 20000
+
+                Aguascalientes, Aguascalientes
+
+            </ul>
+            <ul>
+                <img src="../../assets/img/tel.png" alt="">
+                Tel: 01 (449) 910 3210 y 910 3240
+            </ul>
+            <ul>
+                <img src="../../assets/img/msj.png" alt="">
+                contacto@congresoags.gob.mx
+            </ul>
             <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
         </div>
         <!-- Copyright -->
