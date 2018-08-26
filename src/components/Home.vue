@@ -37,7 +37,7 @@
             </a>
         </div>
     </div>
-    <Footer/>
+    
     </body>
 
 
@@ -48,7 +48,7 @@
     import Sidebar from "./layouts/Sidebar";
     export default {
       name: 'Home',
-        components: {Sidebar,Footer},
+        components: {Sidebar}
     }
 
 </script>
