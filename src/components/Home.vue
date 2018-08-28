@@ -1,5 +1,5 @@
 <template>
-    <body>
+    <div>
     <div>
         <img src="../assets/img/bannerIndex.jpg" class="img-fluid" alt="first image">
     </div>
@@ -37,14 +37,13 @@
             </a>
         </div>
     </div>
-    
-    </body>
+
+    </div>
 
 
 </template>
 
 <script>
-    import Footer from "./layouts/Footer";
     import Sidebar from "./layouts/Sidebar";
     export default {
       name: 'Home',
