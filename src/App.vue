@@ -1,8 +1,10 @@
 <template>
     <div id="app">
         <Navbar/>
-        <router-view></router-view>
-                <Footer/>
+        <router-view class="footer"></router-view>
+        <div>
+            <Footer/>
+        </div>
     </div>
 </template>
 
@@ -19,5 +21,15 @@ export default {
 </script>
 
 <style>
+    body {
+        position: relative;
+        padding-bottom: 180px;
+        min-height: 100%;
+    }
+
+    html {
+        height: 100%;
+        box-sizing: border-box;
+    }
 
 </style>

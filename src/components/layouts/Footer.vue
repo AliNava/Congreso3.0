@@ -1,6 +1,6 @@
 <template>
     <!-- Footer -->
-    <footer class="page-footer font-small cyan darken-3 bg-dark ">
+    <footer class="page-footer font-small cyan darken-3 bg-dark footer">
 
         <!-- Footer Elements -->
         <div class="container">
@@ -39,12 +39,10 @@
             <ul>
                 <img src="../../assets/img/tel.png" alt="">
                 Tel: 01 (449) 910 3210 y 910 3240
-            </ul>
-            <ul>
+
                 <img src="../../assets/img/msj.png" alt="">
                 contacto@congresoags.gob.mx
             </ul>
-            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
         </div>
         <!-- Copyright -->
 
@@ -59,5 +57,10 @@
 </script>
 
 <style scoped>
-
+    footer {
+        position: absolute;
+        bottom: 0;
+        height: 180px;
+        width: 100%;
+    }
 </style>
