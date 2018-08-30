@@ -1,12 +1,12 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light " >
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg" >
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
             <router-link :to="{ name:'home' }">
                 <img src="../../assets/img/logocongreso.png" class="float-left" style="max-height:75px "/>
             </router-link>
             <ul class="navbar-nav mx-auto" >
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         LXIII Legislatura
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -17,7 +17,7 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Congreso del estado
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
@@ -31,7 +31,7 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Actividad Legislativa
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
@@ -43,20 +43,20 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Transparencia
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
                         <router-link class="dropdown-item" :to="{ name: 'article55'}">Artículoo 55</router-link>
                         <router-link class="dropdown-item" :to="{ name: 'article57'}">Artículo 57</router-link>
-                        <router-link class="dropdown-item" :to="{ name: 'transparency_previous'}">Transparencia anterior</router-link>
+                        <a class="dropdown-item" href="http://congresoags.gob.mx:8080/congresoags/MarcoNormativo.php">Transparencia anterior</a>
                     </div>
                 </li>
                 <li class="nav-item h-b-reed" >
-                    <a class="nav-link" href="#">Prensa</a>
+                    <a class="nav-link font-weight-bold" href="http://hcongresoags.blogspot.com/">Prensa</a>
                 </li>
                 <li class="nav-item h-b-reed">
-                    <a class="nav-link" href="#">IIL</a>
+                    <router-link class="nav-link font-weight-bold" :to="{ name: 'institute_of_legislative_investigations'}">IIL</router-link>
                 </li>
             </ul>
         </div>
@@ -78,7 +78,18 @@
     .dropdown-menu:hover{
         display: block;
     }
-    .dropdown-item:hover{
-        color: #428bca ;
+    .dropdown-menu{
+        background-color: transparent;
     }
+    .dropdown-item:hover{
+        background-color: #DAF7A6 ;
+    }
+    .dropdown-item{
+        color: white;
+    }
+    .bg {
+        background-image: url("../../assets/img/cornflower-49221_1920.jpg") ;
+        background-repeat: no-repeat;
+    }
+
 </style>

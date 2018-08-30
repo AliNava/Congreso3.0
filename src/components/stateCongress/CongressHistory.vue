@@ -1,6 +1,6 @@
 <template>
     <div>
-        Historia del congreso
+        <img src="../../assets/img/banners/historia del congreso-01.jpg" class="img-fluid" alt="first image">
     </div>
 </template>
 

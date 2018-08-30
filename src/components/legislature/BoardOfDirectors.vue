@@ -1,12 +1,14 @@
 <template>
     <div>
-        Mesa Directiva
+        <Gabinets/>
     </div>
 </template>
 
 <script>
+    import Gabinets from "../layouts/Gabinets";
     export default {
-        name: "BoardOfDirectors"
+        name: "BoardOfDirectors",
+        components: {Gabinets}
     }
 </script>
 

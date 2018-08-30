@@ -1,6 +1,6 @@
 <template>
     <div>
-        Muro de honor
+        <img src="../../assets/img/banners/muros de honor-01.jpg" class="img-fluid" alt="first image">
     </div>
 </template>
 

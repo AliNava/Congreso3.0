@@ -1,6 +1,6 @@
 <template>
     <div>
-        Salón de sesion plenaria
+        <img src="../../assets/img/banners/salon de sesiones plenarias-01.jpg" class="img-fluid" alt="first image">
     </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <div>
-        Composición Gráfica
+        <img src="../../assets/img/banners/composicion_grafica-01.jpg" class="img-fluid" alt="first image">
     </div>
 </template>
 

@@ -1,12 +1,14 @@
 <template>
     <div>
-        Conoce tu diputado
+       <Gabinets/>
     </div>
 </template>
 
 <script>
+    import Gabinets from "../layouts/Gabinets";
     export default {
-        name: "KnowYourDeputy"
+        name: "KnowYourDeputy",
+        components: {Gabinets}
     }
 </script>
 

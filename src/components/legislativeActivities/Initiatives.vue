@@ -1,5 +1,6 @@
 <template>
-    <div> Iniviativas
+    <div>
+        <img src="../../assets/img/bannerIndex.jpg" class="img-fluid" alt="first image">
     </div>
 </template>
 

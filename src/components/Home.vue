@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg">
         <div>
             <img src="../assets/img/bannerIndex.jpg" class="img-fluid" alt="first image">
         </div>
@@ -7,7 +7,7 @@
 
             <div class="row">
                 <!--menu izq-->
-                <div class=" col-4 p-0">
+                <div class=" row col-2 ">
                     <Sidebar/>
                 </div>
                 <!--carrousel-->
@@ -37,7 +37,18 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+                <!-- visitas-->
+                <div class="h4 col-2 text-lg-center text-dark font-weight-bold">
+                    Eres nuestro visitante no.
+                    <div>
+
+                        <a href="https://www.contadorvisitasgratis.com" title="contador para pagina web"><img src="https://counter4.whocame.ovh/private/contadorvisitasgratis.php?c=1myl2ndjqehk62tmsp926st327zxwyqx" border="0" title="contador para pagina web" alt="contador para pagina web"></a>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div>
+            <img class="col-2 row" src="../assets/img/Canal_del_congreso_mexico.png" alt="">
         </div>
     </div>
 </template>
@@ -55,5 +66,9 @@
 <style scoped>
     .carousel slide {
         height: 100%;
+    }
+    .bg {
+        background-image: url("../assets/img/clean-2721103_1920.jpg") ;
+        background-repeat: no-repeat;
     }
 </style>

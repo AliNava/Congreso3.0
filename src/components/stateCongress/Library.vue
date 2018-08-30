@@ -1,6 +1,6 @@
 <template>
     <div>
-        Biblioteca
+        <img src="../../assets/img/banners/bliblioteca-01.jpg" class="img-fluid" alt="first image">
     </div>
 </template>
 

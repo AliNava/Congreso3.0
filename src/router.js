@@ -20,6 +20,7 @@ import PointsOfAgreement from './components/legislativeActivities/PointsOfAgreem
 import Article55 from './components/transparency/Article55'
 import Article57 from './components/transparency/Article57'
 import TransparencyPrevious from './components/transparency/TransparencyPrevious'
+import InstituteOfLegislativeInvestigations from './components/InstituteOfLegislativeInvestigations'
 
 Vue.use(Router);
 
@@ -126,6 +127,11 @@ export default new Router({
             path:'/transparenciaanterior',
             name:'transparency_previous',
             component: TransparencyPrevious,
+        },
+        {
+            path:'/institutodeinvestigacioneslegislativas',
+            name:'institute_of_legislative_investigations',
+            component: InstituteOfLegislativeInvestigations,
         }
 
     ]

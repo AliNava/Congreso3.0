@@ -1,6 +1,5 @@
 <template>
     <div>
-        Transparencia anterior
     </div>
 </template>
 

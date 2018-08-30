@@ -1,6 +1,6 @@
 <template>
     <div>
-        articulo 55
+        <img src="../../assets/img/banners/Transparencia_art.55-01.jpg" class="img-fluid" alt="first image">
     </div>
 </template>
 
